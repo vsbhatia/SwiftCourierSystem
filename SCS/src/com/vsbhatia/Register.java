@@ -33,7 +33,7 @@ public class Register extends HttpServlet {
 			
 			String url = "jdbc:mysql://localhost:3306/couriersystem";	//couriersystem is a DataBase Name.
 			String uname = "vsbhatia";									//username of User of the DataBase.
-			String pass = "27618349";									//password of User of the DataBase.
+			String pass = "root";									//password of User of the DataBase.
 			Connection con = DriverManager.getConnection(url, uname, pass);
 
 //			PreparedStatement s =con.prepareStatement(q1);
