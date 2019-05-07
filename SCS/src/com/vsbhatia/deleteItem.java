@@ -22,7 +22,7 @@ public class deleteItem extends HttpServlet{
 				Class.forName("com.mysql.jdbc.Driver");
 				PrintWriter out = res.getWriter();
 				out.println("DeleteItem class loaded!");
-//				Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/couriersystem","vsbhatia","27618349");
+//				Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/couriersystem","vsbhatia","root");
 //				int type = Integer.parseInt(req.getParameter("type"));
 //				int weight = Integer.parseInt(req.getParameter("wgt"));
 //				
