@@ -33,7 +33,7 @@ public class LoginValidate extends HttpServlet {
 			String query = "select * from user where username=? and password=?";
 			
 			
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/couriersystem","vsbhatia","27618349");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/couriersystem","vsbhatia","root");
 			
 			PreparedStatement ps = con.prepareStatement(query);
 			ps.setString(1, name);
